@@ -1,0 +1,25 @@
+.navigation-list {
+    ul {
+        display: flex;
+    }
+
+    li:not(:last-child) {
+
+        margin-right: 42px;
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $accent-color-hover;
+            transition: all .2s ease-in-out;
+        }
+
+        &:active {
+            font-weight: 700;
+            color: $accent-color-hover;
+
+        }
+    }
+}

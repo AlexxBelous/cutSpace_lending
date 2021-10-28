@@ -1,0 +1,22 @@
+.header {
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+
+        p {
+            // line-height: 1.687;
+        }
+    }
+
+    // &__title {
+    //     margin-bottom: 25px;
+    //     font-size: 54px;
+    //     font-weight: 700;
+    //     line-height: 1.46;
+    // }
+}

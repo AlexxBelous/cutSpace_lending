@@ -7,16 +7,21 @@
     }
 
     &__text {
-
+        width: 465px;
         p {
-            // line-height: 1.687;
+            line-height: 1.678;
+            margin-bottom: 1em;
         }
     }
 
-    // &__title {
-    //     margin-bottom: 25px;
-    //     font-size: 54px;
-    //     font-weight: 700;
-    //     line-height: 1.46;
-    // }
+    &__title h1 {
+            font-size: 54px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            line-height: 1.46;
+            margin-right: -150px;
+            position: relative;
+            z-index: 9;
+
+    }
 }

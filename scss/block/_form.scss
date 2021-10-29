@@ -3,6 +3,7 @@
     box-shadow: 0 17px 42px rgba(0, 0, 0, 0.12);
     border-radius: 29px;
     height: 58px;
+    transition: all .2s ease-in;
 
     &--active {
         box-shadow: 0 17px 42px rgba(247, 132, 52, 0.27);
@@ -37,4 +38,4 @@
     margin-right: 10px;
 }
 
-// 1час 25минут 22 сек
+//  час и 30 минут

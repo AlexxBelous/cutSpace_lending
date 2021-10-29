@@ -89,6 +89,8 @@
           box-shadow: 0 17px 42px rgba(0, 0, 0, 0.12);
   border-radius: 29px;
   height: 58px;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 .form--active {

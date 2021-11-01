@@ -24,4 +24,12 @@
             z-index: 9;
 
     }
+
+    &__form {
+        margin-top: 42px;
+    }
+
+    &__img img {
+        border-radius: 40px 40px 40px 0;
+    }
 }
